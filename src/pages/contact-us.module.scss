@@ -1,0 +1,91 @@
+@import '../styles/variables.scss';
+
+.page {
+
+    .large_text {
+        font-size: 1.3rem;
+        font-weight: bold;
+    }
+
+    .contact_box {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        gap: 5%;
+        padding: 2% 5%;
+        background-color: $primary;
+
+        .image {
+            width: 50%;
+            height: auto;
+        }
+
+        .contacts{
+            width: 50%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+
+            .textbox {
+                display: flex;
+                flex-direction: column;
+                gap: 1vh;
+            }
+
+            .form_box {
+                width: 100%;
+
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+        
+                background-color: $primary;
+                padding-top: 5%;
+            }        
+        }
+    }
+    
+    
+    .location_box {
+        background-color: $primary;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+
+        .non_map {
+            padding: 5% 5%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            gap: 3vh;
+
+            p {
+                font-size: 1rem;
+                color: $text-dark;
+            }
+
+            .blue_text{
+                color: $highlighter;
+                font-weight: bold;
+            }
+
+            .deets {
+                display: flex;
+                flex-direction: row;
+                gap: 3vw;
+            }
+        }
+
+        .map {
+            width: 40%;
+
+            .map_pic {
+                width: 80%;
+                padding-bottom: 5vh;
+                height: auto;
+            }
+        }
+
+    }
+}

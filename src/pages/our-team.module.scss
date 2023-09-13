@@ -1,0 +1,56 @@
+@import '../styles/variables.scss';
+
+.page {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 5%;
+
+    background-color: $primary;
+
+    .card {
+        width:25%;
+        aspect-ratio: 1;
+        padding: 2%;
+        margin: 2%;
+        background-image: linear-gradient($secondary-light, $secondary);
+        display: flex;
+        flex-direction: column;
+        gap: 3%;
+
+        .photos {
+            width: 80%;
+            height: auto;
+            padding: 8% 10%;
+        }
+
+        p {
+            padding: 0 10%;
+        }
+
+        .names {
+            font-size: 1.3rem;
+            font-weight: 900;
+        }
+
+        .positions {
+            font-size: 1.1rem;
+            font-style: italic;
+        }
+
+        
+        @include mw {
+            .names {
+                font-size: 1.1rem;
+            }
+    
+            .positions {
+                font-size: 0.9rem;
+                font-style: italic;
+            }
+        }
+
+    }
+
+    
+}

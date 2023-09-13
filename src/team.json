@@ -1,0 +1,72 @@
+{ "2023-24": [
+    {
+        "name": "Timothy",
+        "position": "President",
+        "photo_src": "/../images/person.jpeg"
+    },
+    {
+        "name": "Harry",
+        "position": "Vice President - Internal Affairs",
+        "photo_src": "/../images/person.jpeg"
+    },
+    {
+        "name": "Mani",
+        "position": "Vice President - External Affairs",
+        "photo_src": "/../images/person.jpeg"
+    },
+    {
+        "name": "Jinguang",
+        "position": "Treasurer",
+        "photo_src": "/../images/person.jpeg"
+    },
+    {
+        "name": "Zach",
+        "position": "Secretary",
+        "photo_src": "/../images/person.jpeg"
+    },
+    {
+        "name": "Anjali",
+        "position": "Web Director",
+        "photo_src": "/../images/person.jpeg"
+    },
+    {
+        "name": "Jada",
+        "position": "Social Media & Graphic Design Chair",
+        "photo_src": "/../images/person.jpeg"
+    },
+    {
+        "name": "Sydney",
+        "position": "Photographer & Publicist",
+        "photo_src": "/../images/person.jpeg"
+    },
+    {
+        "name": "Andrew",
+        "position": "Product Manager",
+        "photo_src": "/../images/person.jpeg"
+    },
+    {
+        "name": "Jeremie",
+        "position": "Outreach Chair",
+        "photo_src": "/../images/person.jpeg"
+    },
+    {
+        "name": "Warren",
+        "position": "Event Chair",
+        "photo_src": "/../images/person.jpeg"
+    },
+    {
+        "name": "Vincent",
+        "position": "General Chair",
+        "photo_src": "/../images/person.jpeg"
+    },
+    {
+        "name": "Liz",
+        "position": "Diversity, Equity & Inclusion Chair",
+        "photo_src": "/../images/person.jpeg"
+    },
+    {
+        "name": "Diego",
+        "position": "Wellness Chair",
+        "photo_src": "/../images/person.jpeg"
+    }
+]}

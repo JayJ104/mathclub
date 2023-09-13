@@ -1,0 +1,17 @@
+@import '../styles/variables.scss';
+
+.card {
+    display: flex;
+    flex-direction: column;
+
+    text-align: center;
+    height: 100%;
+
+    p {
+        font-size: 1rem;
+        color: $text-dark;
+        padding: 0.5vh 1vw;
+        background-image: linear-gradient($primary-dark, $primary-darker);
+    }
+
+}

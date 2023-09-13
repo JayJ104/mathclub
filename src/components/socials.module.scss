@@ -1,0 +1,26 @@
+@import '../styles/variables.scss';
+
+.socials{
+    display: flex;
+    flex-direction: row;
+    gap: 2vw;
+}
+
+.a_link{
+    text-decoration: none;
+    color: $text-dark;
+    font-size: 1rem;
+}
+
+.a_link:hover{
+    text-decoration: underline;
+}
+
+
+.logo{
+    font-size: 2rem;
+
+    @include mw{
+        font-size: 2rem;
+    }
+}

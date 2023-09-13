@@ -1,0 +1,29 @@
+@import '../styles/variables.scss';
+
+
+.form_container {
+    width: 60%;
+    padding: 5% 20%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    gap: 2vh;
+
+    border: 1vh;
+
+    background-color: $primary;
+}
+
+.button {
+    padding: 1vh 2vw;
+    background-color: $highlighter;
+    border: none;
+    border-radius: 4vw;
+    font-size: 1rem;
+    color: $text-light;
+
+    width: 50%;
+}

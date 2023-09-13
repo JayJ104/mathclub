@@ -1,0 +1,42 @@
+@import '../styles/variables.scss';
+
+.page {
+    display: flex;
+    flex-direction: column;
+    background-color: $primary;
+
+    .event_year{
+        display: flex;
+        flex-direction: column;
+
+        .year{
+            color: $text-dark;
+            font-size: 3.5rem;
+            font-weight: bold;
+
+            text-align: center;
+            margin-top: 2%;
+        }
+
+        .quarters {
+            display: flex;
+            flex-direction: column;
+            gap: 5%;
+            margin: 5%;
+
+            .qtr_titles, .qtr {                
+                display: grid;
+                grid-template-columns: repeat(3,minmax(0,1fr));
+                gap: 2%;
+
+                .quarter_title {
+                    font-size: 1.5rem;
+                    font-weight: bold;
+                    color: $text-dark;
+                    background-image: linear-gradient($secondary, $secondary-dark);
+                    text-align: center;
+                }
+            }
+        }
+    }
+}

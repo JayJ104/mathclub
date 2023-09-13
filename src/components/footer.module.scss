@@ -1,0 +1,82 @@
+@import '../styles/variables.scss';
+
+.footer_container{
+    width: 100%;
+    background-image: linear-gradient($secondary-dark ,$secondary);
+    display: flex;
+    flex-direction: column;
+
+    position: absolute;
+    
+    .footer{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 2vh 5vw;
+
+        color: $text-dark;
+
+        
+        @include mw{
+            flex-direction: column;
+            align-items: center;
+            gap: 2vh;
+        }
+
+        .footer_left{
+            display: flex;
+            flex-direction: column;
+            gap: 2vh;
+            min-width: fit-content;
+            
+            @include mw{
+                align-items: center;
+            }
+
+            p{
+                font-size: 1.5rem;
+                font-weight: bold;
+            }
+
+        }
+
+        
+        .footer_middle, .footer_right{
+            display: flex;
+            flex-direction: column;
+            gap: 2vh;
+
+            @include mw{
+                align-items: center;
+            }
+
+            .links{
+                display: flex;
+                flex-direction: column ;
+                justify-content: space-between;
+                gap: 1.5vh;
+
+                @include mw{
+                    align-items: center;
+                }
+            }
+
+            p{
+                font-size: 1.5rem;
+                font-weight: bold;
+            }
+            
+        }
+
+    }
+}
+
+.a_link{
+    text-decoration: none;
+    color: $text-dark;
+    font-size: 1rem;
+}
+
+.a_link:hover{
+    text-decoration: underline;
+}

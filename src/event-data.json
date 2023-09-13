@@ -1,0 +1,130 @@
+{
+    "Fall22": [
+                {
+                    "week": 0,
+                    "title": "Pizza Social"
+                },
+                {
+                    "week": 1,
+                    "title": "Getting Into Research"
+                },
+                {
+                    "week": 2,
+                    "title": "Mental Health and Math Misconceptions"
+                },
+                {
+                    "week": 3,
+                    "title": "Movie Morning"
+                },
+                {
+                    "week": 4,
+                    "title": "Technical Workshop"
+                },
+                {
+                    "week": 5,
+                    "title": "Classes Preview"
+                },
+                {
+                    "week": 6,
+                    "title": "Grad School 101"
+                },
+                {
+                    "week": 7,
+                    "title": "Sandia TED Talk"
+                },
+                {
+                    "week": 8,
+                    "title": "Relax Social"
+                }
+    ]
+         ,
+    "Winter23": [
+                {
+                    "week": 1,
+                    "title": "Pizza Social"
+                },
+                {
+                    "week": 2,
+                    "title": "Math Modeling and COMAP Exam Info"
+                },
+                {
+                    "week": 3,
+                    "title": "Networking Social"
+                },
+                {
+                    "week": 4,
+                    "title": "Classes Preview"
+                },
+                {
+                    "week": 5,
+                    "title": "Math Club x WiCS Cryptography Collab"
+                },
+                {
+                    "week": 6,
+                    "title": "Professor Lecture Series"
+                },
+                {
+                    "week": 7,
+                    "title": "Chem x Math Valentine's Collab"
+                },
+                {
+                    "week": 8,
+                    "title": "Integration Bee"
+                },
+                {
+                    "week": 9,
+                    "title": "Finals Stress Competition"
+                }
+    ]
+    ,
+        
+    "Spring23": [
+                {
+                    "week": 1,
+                    "title": "Pizza & Movie Social"
+                },
+                {
+                    "week": 2,
+                    "title": "LaTeX Workshop"
+                },
+                {
+                    "week": 3,
+                    "title": "Professor Lecture Series"
+                },
+                {
+                    "week": 4,
+                    "title": "Game Night"
+                },
+                {
+                    "week": 5,
+                    "title": "Quantum Topology Talk"
+                },
+                {
+                    "week": 6,
+                    "title": "Classes Preview"
+                },
+                {
+                    "week": 7,
+                    "title": "Mental Health Discussion"
+                },
+                {
+                    "week": 8,
+                    "title": "Mathletes Symposium"
+                },
+                {
+                    "week": 9,
+                    "title": "Math Banquet"
+                }
+    ]
+    ,
+  
+        
+    "Fall23": []
+    ,
+        
+    "Winter24": []
+    ,
+        
+    "Spring24": []
+        
+}
