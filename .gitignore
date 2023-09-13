@@ -132,3 +132,4 @@ dist
 # files
 .env
 vhost-conf.txt
+.github
