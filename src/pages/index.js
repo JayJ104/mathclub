@@ -15,7 +15,7 @@ export default function Home() {
   return(
     <div className={styles.page}>
       <div className={styles.welcome_box}>
-        <Image src={Community} className={styles.big_pic}></Image>
+        <Image src={Community} className={styles.big_pic} priority={true} as="image"></Image>
         <p className={styles.welcome_text}>a space for all things mathematics🤍</p>
       </div>
       <div className={styles.yellow_box}>

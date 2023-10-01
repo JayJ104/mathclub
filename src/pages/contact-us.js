@@ -18,7 +18,7 @@ export default function Contact() {
     return(
         <div className={styles.page}>
             <div className={styles.contact_box}>
-                <Image src={Pic} className={styles.image}></Image>             
+                <Image src={Pic} className={styles.image} alt='members'></Image>             
                 <div className={styles.contacts}>
                     <div className={styles.textbox}>
                         <p className={styles.large_text}>Questions? Reach out!</p>
@@ -38,7 +38,7 @@ export default function Contact() {
                     </div>
                 </div>
                 <a target='_blank' href='https://goo.gl/maps/y5TVTLNSFkETC6GP6' className={styles.map}>
-                    <Image className={styles.map_pic} src={Map}/>
+                    <Image className={styles.map_pic} src={Map} alt='map'/>
                 </a>
             </div>
         </div>

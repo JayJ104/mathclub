@@ -10,7 +10,7 @@ export default function Team() {
             {officerList.map( (officer, index) => {
                 return (
                     <div className={styles.card} key={index}>    
-                        <Image src={pic} className={styles.photos}/>                    
+                        <Image src={pic} className={styles.photos} alt='officer'/>                    
                         <p className={styles.names}>{officer.name}</p>
                         <p className={styles.positions}>{officer.position}</p>
                     </div>
