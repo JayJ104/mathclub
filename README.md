@@ -8,5 +8,4 @@ Website for Math Club at UC Davis
 5. Color Theme updates in /src/styles/variables.scss
 
 ## To Do:
-1. Backend for Contact form. Incorporate form in frontend after that. 
 2. Update pictures and names of the team. 
