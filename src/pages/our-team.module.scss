@@ -1,56 +1,95 @@
 @import '../styles/variables.scss';
 
 .page {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    padding: 5%;
-
     background-color: $primary;
+    padding: 5vh 5%;
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
 
-    .card {
-        width:25%;
-        aspect-ratio: 1;
-        padding: 2%;
-        margin: 2%;
-        background-image: linear-gradient($secondary-light, $secondary);
+    .title{
+        font-size: 4rem;
+        font-weight: 900;
+        text-align: center;
+    }
+
+    .officer_cards{
         display: flex;
-        flex-direction: column;
-        gap: 3%;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 35px;
+        justify-content: center;
 
-        .photos {
-            width: 80%;
-            height: auto;
-            padding: 8% 10%;
+        @include mw{
+            gap: 35px;
         }
-
-        p {
-            padding: 0 10%;
-        }
-
-        .names {
-            font-size: 1.3rem;
-            font-weight: 900;
-        }
-
-        .positions {
-            font-size: 1.1rem;
-            font-style: italic;
-        }
-
-        
-        @include mw {
+        .card {
+            width:30%;
+            aspect-ratio: 1;
+            background-image: linear-gradient($secondary-light, $secondary);
+            display: flex;
+            flex-direction: column;
+    
+            @include mw{
+                width: 100%;
+                aspect-ratio: 1;
+                margin: 0;
+                gap: 0;
+            }
+    
+            .photos {
+                width: 80%;
+                aspect-ratio: 1;
+                overflow: hidden;
+                height: auto;
+                padding: 5% 10%;
+    
+                @include mw{
+                    width: 90%;
+                    padding: 5%;
+                }
+            }
+    
+            p {
+                padding: 2% 10%;
+                
+                @include mw{
+                    padding: 0.5% 5%;
+                }
+            }
+    
             .names {
-                font-size: 1.1rem;
+                font-size: 1.5rem;
+                font-weight: 900;
             }
     
             .positions {
-                font-size: 0.9rem;
+                font-size: 1.5rem;
                 font-style: italic;
             }
-        }
-
-    }
-
     
+            .intro{
+                font-size: 1rem;
+                padding-bottom: 5%;
+            }
+    
+            
+            @include mw {
+                .names {
+                    font-size: 2rem;
+                }
+        
+                .positions {
+                    font-size: 1.7rem;
+                    font-style: italic;
+                }
+    
+                .intro{
+                    font-size: 1.3rem;
+                    padding-bottom: 5%;
+                }
+            }
+    
+        }
+    }
 }

@@ -1,6 +1,8 @@
 @import '../styles/variables.scss';
 
 .page {
+    padding: 5vh 0;
+    background-color: $primary;
 
     .large_text {
         font-size: 1.3rem;
@@ -15,9 +17,20 @@
         padding: 2% 5%;
         background-color: $primary;
 
+        @include mw{
+            flex-direction: column;
+            align-items: center;
+            gap: 20px;
+            padding: 2% 2.5%;
+        }
+
         .image {
             width: 50%;
             height: auto;
+
+            @include mw{
+                width: 80%;
+            }
         }
 
         .contacts{
@@ -27,22 +40,16 @@
             align-items: center;
             justify-content: center;
 
+            @include mw{
+                width: 80%;
+            }
+
             .textbox {
                 display: flex;
                 flex-direction: column;
                 gap: 1vh;
-            }
-
-            .form_box {
-                width: 100%;
-
-                display: flex;
-                flex-direction: column;
                 align-items: center;
-        
-                background-color: $primary;
-                padding-top: 5%;
-            }        
+            }    
         }
     }
     
@@ -52,13 +59,26 @@
         display: flex;
         flex-direction: row;
         justify-content: space-between;
+        padding-top: 50px;
+
+
+        @include mw{
+            flex-direction: column;
+            align-items: center;
+            padding: 0 2.5%;
+            padding-top: 50px;
+        }
 
         .non_map {
-            padding: 5% 5%;
+            padding: 0 5%;
             display: flex;
             flex-direction: column;
-            justify-content: center;
             gap: 3vh;
+
+            @include mw{
+                width: 80%;
+                padding-bottom: 35px;
+            }
 
             p {
                 font-size: 1rem;
@@ -80,10 +100,18 @@
         .map {
             width: 40%;
 
+            @include mw{
+                width: 80%;
+            }
+
             .map_pic {
                 width: 80%;
                 padding-bottom: 5vh;
                 height: auto;
+
+                @include mw{
+                    width: 100%;
+                }
             }
         }
 

@@ -11,7 +11,7 @@ $text-light: #f0f6ff ;
 $text-dark: #202429;
 
 $navbar-height: 10vh;
-$navbar-height-mw: 10vh;
+$navbar-height-mw: 12vh;
 
 @mixin mw{
     @media screen and (max-width: 800px) {

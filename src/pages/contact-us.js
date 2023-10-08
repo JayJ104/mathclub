@@ -3,18 +3,11 @@ import Image from 'next/image';
 
 
 import Socials from '../components/socials';
-import Form from '../components/form';
 
 import Pic from '../images/math.jpg';
 import Map from '../images/map.jpg';
 
 export default function Contact() {
-   /*
-                        <div className={styles.form_box}>
-                        <p className={styles.large_text}>Contact Form</p>
-                        <Form onSubmitHandler={onSubmitHandler} className={styles.contact_form}/>
-                    </div>
-*/
     return(
         <div className={styles.page}>
             <div className={styles.contact_box}>

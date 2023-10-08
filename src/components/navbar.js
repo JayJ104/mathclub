@@ -16,11 +16,6 @@ const navlinks = [
     {name: 'Contact Us', url: 'contact-us'},]
 
 export default function Navbar() {
-    const [active, setActive] = useState(false)
-    const toggleActive = () => {
-      setActive(!active)
-    }
-
     return (
         <div className={styles.navbar_container}>
             <div className={styles.navbar_left_container}>
@@ -28,13 +23,12 @@ export default function Navbar() {
                 <Link href='' className={styles.navbar_logo}>Math Club at UC Davis</Link>
             </div>
           <div className={styles.navbar_right_container}>
-            <div className={`${styles.navbar_links} ${active? styles.active : null}`}>
+            <div className={styles.navbar_links}>
               {navlinks.map((navlink, index) => {
                 return (
                   <Link 
                     href={`/${navlink.url}`} 
                     className={styles.nav_link}
-                    onClick={() => setActive(false)}
                     key={index}>
                       {navlink.name}
                   </Link>
@@ -42,13 +36,8 @@ export default function Navbar() {
               })}
             </div>
             <a target='_blank' href= {links["aggieLife"]}>
-              <button className={styles.register_button}>Join Us</button>
+              <button className={styles.join_button}>Join Us</button>
             </a>
-            <button 
-                className={styles.hamburger_menu}
-                onClick={toggleActive}>
-                {active? <RxCross1/> : <RxHamburgerMenu/>}
-            </button>
           </div>
         </div>
     );

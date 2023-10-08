@@ -15,7 +15,7 @@ export default function Home() {
   return(
     <div className={styles.page}>
       <div className={styles.welcome_box}>
-        <Image src={Community} className={styles.big_pic} priority={true} as="image"></Image>
+        <Image src={Community} className={styles.big_pic} priority={true} as="image" alt='members'></Image>
         <p className={styles.welcome_text}>a space for all things mathematics🤍</p>
       </div>
       <div className={styles.yellow_box}>
@@ -24,8 +24,8 @@ export default function Home() {
           <p className={styles.description}>from peers, professors and professionals.</p>
         </div>
         <div className={styles.image_box}>
-          <Image src={Learn1} className={styles.first_pic}></Image>
-          <Image src={Learn2} className={styles.second_pic}></Image>
+          <Image src={Learn1} className={styles.first_pic} alt='meeting'></Image>
+          <Image src={Learn2} className={styles.second_pic} alt='lecture'></Image>
         </div>
       </div>
       <div className={styles.white_box}>
@@ -34,8 +34,8 @@ export default function Home() {
           <p className={styles.description}>through technical workshops and networking events.</p>
         </div>
         <div className={styles.image_box}>
-          <Image src={Advance1} className={styles.first_pic}></Image>
-          <Image src={Advance2} className={styles.second_pic}></Image>
+          <Image src={Advance1} className={styles.first_pic} alt='workshop'></Image>
+          <Image src={Advance2} className={styles.second_pic} alt='networking event'></Image>
         </div>
       </div>
       <div className={styles.yellow_box}>
@@ -44,8 +44,8 @@ export default function Home() {
           <p className={styles.description}>participating in a supportive community.</p>
         </div>
         <div className={styles.image_box}>
-          <Image src={Enjoy1} className={styles.first_pic}></Image>
-          <Image src={Enjoy2} className={styles.second_pic}></Image>
+          <Image src={Enjoy1} className={styles.first_pic} alt='social'></Image>
+          <Image src={Enjoy2} className={styles.second_pic} alt='movie'></Image>
         </div>
       </div>
       <div className={styles.math_box}>

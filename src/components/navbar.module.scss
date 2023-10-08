@@ -17,107 +17,116 @@
     align-items: center;
 
     background-image: linear-gradient($secondary, $secondary-dark);
-    gap: 4vw;
 
     @include mw {
         height: $navbar-height-mw;
-    }
-}
-
-.logo{
-    width: 5vw;
-    height: auto;
-}
-
-.navbar_logo,
-.nav_link {
-    color: $text-dark;
-    text-decoration: none;
-}
-
-.navbar_logo {
-    font-size: 2rem;
-    font-weight: bold;
-}
-
-.nav_link {
-    font-size: 1rem;
-
-    @include mw{
-        width: 100%;
-        padding: 2vw;
-        text-align: center;
-    }
-}
-
-.nav_link:hover {
-    transform: scale(1.05);
-    
-    @include mw{
-        background-color: $primary;
-    }
-}
-
-.navbar_right_container, .navbar_left_container {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    gap: 2.5vw;
-    padding: 0 2.5vw;
-}
-
-.navbar_links {
-    display: flex;
-    flex-direction: row;
-    gap: 2.5vw;
-
-    @include mw{
-        position: absolute;
-        top: 100%;
-        left: 0;
-        width: 100%;
-        height: fit-content;
-        max-height: 0;
-        overflow: hidden;
-
-        background-color: $secondary;
         flex-direction: column;
-        align-items: center;
-        transition: all 0.3s ease-in-out;
-
-        gap: 0;
+        justify-content: none;
+        align-items:baseline;
     }
-}
 
-.register_button {
-    padding: 1vh 2vw;
-    background-color: $highlighter;
-    border: none;
-    border-radius: 4vw;
-    font-size: 1rem;
-    color: $text-light;
-}
-
-.register_button:hover {
-    transform: scale(1.05);
-}
-
-.hamburger_menu {
-    display: none;
-    align-items: center;
-
-    background: none;
-    border: none;
-    font-size: 2.5rem;
-    color: $text-dark;
-
-    @include mw{
+    .navbar_left_container {
         display: flex;
-    }
-}
+        flex-direction: row;
+        align-items: center;
+        gap: 2.5vw;
+        padding: 0 2.5vw;
 
-@include mw{
-    .navbar_links.active {
-        max-height: calc(100vh - #{$navbar-height});
+        @include mw{
+            width: 100%;
+            padding-top: 2vh;
+        }
+
+        .logo{
+            width: 5vw;
+            height: auto;
+
+            @include mw{
+                width: 7vw;
+            }
+        }
+
+        .navbar_logo {
+            font-size: 2rem;
+            font-weight: bold;
+            color: $text-dark;
+            text-decoration: none;
+        }
     }
+
+    .navbar_right_container {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 2.5vw;
+        padding: 0 2.5vw;
+
+        .navbar_links {
+            display: flex;
+            flex-direction: row;
+            gap: 2.5vw;
+        
+            @include mw{
+                width: 100%;
+                /*
+                position: absolute;
+                top: 100%;
+                left: 0;
+                height: fit-content;
+                max-height: 0;
+                overflow: hidden;
+        
+                background-color: $secondary;
+                flex-direction: column;
+                align-items: center;
+                transition: all 0.3s ease-in-out;
+        
+                gap: 0;
+                */
+            }
+
+            .nav_link {
+                font-size: 1rem;
+                color: $text-dark;
+                text-decoration: none;
+                text-align: center;
+            
+                @include mw{
+                    width: 100%;
+                    padding: 2vw;
+                    font-size: 1rem;
+                }
+            }
+            
+            .nav_link:hover {
+                transform: scale(1.05);
+
+                @include mw{
+                    transform: none;
+                }
+            }            
+        }
+
+        .join_button {
+            padding: 1vh 2vw;
+            background-color: $highlighter;
+            border: none;
+            border-radius: 4vw;
+            font-size: 1rem;
+            color: $text-light;
+
+            @include mw{
+                font-size: 0.8rem;
+            }
+        }
+        
+        .join_button:hover {
+            transform: scale(1.05);
+            
+            @include mw{
+                transform: none;
+            }
+        }
+    }
+    
 }
