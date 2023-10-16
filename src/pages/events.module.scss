@@ -20,6 +20,13 @@
             margin-top: 2%;
         }
 
+        .quarter_time{
+            font-size: 1.5rem;
+            font-weight: 400;
+            color: $text-dark;
+            text-align: center;
+        }
+
         .quarters {
             display: flex;
             flex-direction: column;

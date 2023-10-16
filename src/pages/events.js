@@ -16,6 +16,7 @@ export default function Events() {
         <div className={styles.page}>
             <div className={styles.event_year}>
                 <p className={styles.year}>2023-24</p>
+                <p className={styles.quarter_time}>Fall quarter meetings: Friday 5-6pm at MSB 1147</p>
                 <div className={styles.quarters}>
                     <div className={styles.qtr_titles}>                        
                         <p className={styles.quarter_title}>fall 2023</p>
