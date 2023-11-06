@@ -26,14 +26,14 @@
     {
         "name": "Zachery Whitehead",
         "position": "Secretary",
-        "photo_src": "/images/person.jpeg",
+        "photo_src": "/images/zachery.png",
         "intro": "Hi, I’m Zach. I’m a physics and math double major and will be this year’s secretary. In my free time I like to study The Bible, hang out with friends, meet new people, and watch movies. I am very excited to meet everyone and talk with you all about some interesting topics."
     },
     {
         "name": "Anjali Jain",
         "position": "Website Director",
         "photo_src": "/images/anjali.jpg",
-        "intro": "Hi, I'm Anjali (I also go by Jay). I am a Computer Science and Engineering major. In my free time, I like to play guitar, make random lists, watch sitcoms and murder mysteries, and bug my friends."
+        "intro": "Hi, I'm Jay. I am a Computer Science and Engineering major. In my free time, I like to play guitar, make random lists, watch sitcoms and murder mysteries, and bug my friends."
     },
     {
         "name": "Jada Yip",
@@ -50,7 +50,7 @@
     {
         "name": "Andrew Patton",
         "position": "Product Manager",
-        "photo_src": "/images/person.jpeg",
+        "photo_src": "/images/andrew.jpg",
         "intro": "Hey, I’m Andrew a third year applied mathematics student with interests in biophysics and computational neuroscience. I like biking and playing videogames outside of classes. Looking forward to a strong year for Math Club!"
     },
     {
@@ -74,13 +74,13 @@
     {
         "name": "Elizabeth Angulo",
         "position": "Diversity, Equity & Inclusion Chair",
-        "photo_src": "/images/person.jpeg",
+        "photo_src": "/images/elizabeth.png",
         "intro": "Hello! I’m Liz, a fourth year Applied Mathematics major. I am this year's DEI chair. Outside of school I enjoy watching a ton of TV or playing video games on my switch. I look forward to being a part of the club!"
     },
     {
         "name": "Diego Martinez",
         "position": "Wellness Chair",
-        "photo_src": "/images/diego.png",
+        "photo_src": "/images/diego.jpg",
         "intro": "Hello! I’m Diego, a third year majoring in Math and Statistics. As our club’s wellness chair and an advocate for mental health awareness, I look forward to engaging our club in different ways of promoting overall well being. Outside of math, I enjoy long distance running and playing guitar!"
     }
 ]}

@@ -1,6 +1,5 @@
-import { ST } from 'next/dist/shared/lib/utils';
 import TeamData from '../team.json';
-import styles from './our-team.module.scss';
+import styles from '../styles/our-team.module.scss';
 import Image from 'next/image';
 
 export default function Team() {

@@ -1,5 +1,5 @@
 import Data from '../event-data.json';
-import styles from './events.module.scss';
+import styles from '../styles/events.module.scss';
 import EventCard from '../components/eventcard';
 
 

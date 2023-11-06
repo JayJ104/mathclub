@@ -1,4 +1,4 @@
-import styles from './contact-us.module.scss';
+import styles from '../styles/contact-us.module.scss';
 import Image from 'next/image';
 
 
