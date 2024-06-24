@@ -6,6 +6,3 @@ Website for Math Club at UC Davis
 3. Events can be updated to /src/event-data.json. also modify years and constants in /src/pages/events.js when updating
 4. Officer details can be updated in /src/team.json
 5. Color Theme updates in /src/styles/variables.scss
-
-## To Do:
-2. Update pictures and names of the team. 
