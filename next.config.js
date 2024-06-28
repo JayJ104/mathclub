@@ -3,7 +3,7 @@ const nextConfig = {
   images: {
     unoptimized: true,
   },
-  assetPrefix: "./",
+  basePath: process.env.BASE_PATH,
 };
 
 module.exports = nextConfig;
