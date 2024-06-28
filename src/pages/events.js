@@ -1,5 +1,5 @@
 import Data from "../event-data.json";
-import styles from "../styles/events.module.scss";
+import styles from "../styles/pages/events.module.scss";
 import EventCard from "../components/eventcard";
 
 export default function Events() {

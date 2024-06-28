@@ -1,4 +1,4 @@
-import styles from "./socials.module.scss";
+import styles from "../styles/components/socials.module.scss";
 import links from "../links.json";
 
 import { RxDiscordLogo, RxInstagramLogo } from "react-icons/rx";

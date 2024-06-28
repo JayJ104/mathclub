@@ -1,24 +1,33 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap');
-@import 'variables';
-@import 'normalize';
+@use "mixins.scss";
 
-body > * {
-  padding: 0;
+:root {
+  /* Variables */
+  --primary: #fffff0;
+  --primary-dark: #f2f1d8;
+  --primary-darker: #fce59d;
+  --secondary: #f9cc3f;
+  --secondary-dark: #f0b702;
+  --secondary-light: #f7d15c;
+  --highlighter:#2f49aa ;
+  --highlighter-light: #4265eb;
+  --text-light: #f0f6ff ;
+  --text-dark: #202429;
+
+  --navbar-height: 10vh;
+  --navbar-height-mw: 12vh;
+}
+
+* {
   box-sizing: border-box;
-  font-family: 'Lexend', serif;
+  font-family: 'Tahoma';
+  padding: 0;
   margin: 0;
 }
 
-
-input, textarea {
-  width: 100%;
-}
-
-
 body {
-  padding-top: $navbar-height;
+  padding-top: var(--navbar-height);
 
-  @include mw {
-    padding-top: $navbar-height-mw;
+  @include mixins.mw {
+    padding-top: var(--navbar-height-mw);
   }
 }

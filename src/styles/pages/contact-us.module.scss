@@ -1,8 +1,8 @@
-@import '../styles/variables.scss';
+@use "../mixins.scss";
 
 .page {
     padding: 5vh 0;
-    background-color: $primary;
+    background-color: var(--primary);
 
     .large_text {
         font-size: 1.3rem;
@@ -15,9 +15,9 @@
         justify-content: space-between;
         gap: 5%;
         padding: 2% 5%;
-        background-color: $primary;
+        background-color: var(--primary);
 
-        @include mw{
+        @include mixins.mw{
             flex-direction: column;
             align-items: center;
             gap: 20px;
@@ -28,7 +28,7 @@
             width: 50%;
             height: auto;
 
-            @include mw{
+            @include mixins.mw{
                 width: 80%;
             }
         }
@@ -40,7 +40,7 @@
             align-items: center;
             justify-content: center;
 
-            @include mw{
+            @include mixins.mw{
                 width: 80%;
             }
 
@@ -55,14 +55,14 @@
     
     
     .location_box {
-        background-color: $primary;
+        background-color: var(--primary);
         display: flex;
         flex-direction: row;
         justify-content: space-between;
         padding-top: 50px;
 
 
-        @include mw{
+        @include mixins.mw{
             flex-direction: column;
             align-items: center;
             padding: 0 2.5%;
@@ -75,18 +75,18 @@
             flex-direction: column;
             gap: 3vh;
 
-            @include mw{
+            @include mixins.mw{
                 width: 80%;
                 padding-bottom: 35px;
             }
 
             p {
                 font-size: 1rem;
-                color: $text-dark;
+                color: var(--text-dark);
             }
 
             .blue_text{
-                color: $highlighter;
+                color: var(--highlighter);
                 font-weight: bold;
             }
 
@@ -100,7 +100,7 @@
         .map {
             width: 40%;
 
-            @include mw{
+            @include mixins.mw{
                 width: 80%;
             }
 
@@ -109,7 +109,7 @@
                 padding-bottom: 5vh;
                 height: auto;
 
-                @include mw{
+                @include mixins.mw{
                     width: 100%;
                 }
             }

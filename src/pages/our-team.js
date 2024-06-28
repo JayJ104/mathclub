@@ -1,5 +1,5 @@
 import TeamData from "../team.json";
-import styles from "../styles/our-team.module.scss";
+import styles from "../styles/pages/our-team.module.scss";
 import Image from "next/image";
 
 export default function Team() {

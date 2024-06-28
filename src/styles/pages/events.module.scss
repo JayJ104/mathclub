@@ -1,9 +1,9 @@
-@import '../styles/variables.scss';
+@use "../mixins.scss";
 
 .page {
     display: flex;
     flex-direction: column;
-    background-color: $primary;
+    background-color: var(--primary);
     padding: 5vh 0;
 
 
@@ -12,7 +12,7 @@
         flex-direction: column;
 
         .year{
-            color: $text-dark;
+            color: var(--text-dark);
             font-size: 3.5rem;
             font-weight: bold;
 
@@ -23,7 +23,7 @@
         .quarter_time{
             font-size: 1.5rem;
             font-weight: 400;
-            color: $text-dark;
+            color: var(--text-dark);
             text-align: center;
         }
 
@@ -41,8 +41,8 @@
                 .quarter_title {
                     font-size: 1.5rem;
                     font-weight: bold;
-                    color: $text-dark;
-                    background-image: linear-gradient($secondary, $secondary-dark);
+                    color: var(--text-dark);
+                    background-image: linear-gradient(var(--secondary), var(--secondary-dark));
                     text-align: center;
                 }
             }

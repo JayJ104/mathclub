@@ -1,4 +1,4 @@
-import styles from "./eventcard.module.scss";
+import styles from "../styles/components/eventcard.module.scss";
 
 export default function EventCard({ event_list }) {
   if (event_list.length === 0) {

@@ -3,7 +3,7 @@ import Image from "next/image";
 import Logo from "../images/logo-modified.png";
 import links from "../links.json";
 
-import styles from "./navbar.module.scss";
+import styles from "../styles/components/navbar.module.scss";
 
 const navlinks = [
   { name: "Home", url: "" },
