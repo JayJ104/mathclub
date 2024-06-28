@@ -1,7 +1,9 @@
 const nextConfig = {
-    images: {
-        unoptimized: true,
-    },
-}
+  //   images: {
+  //     unoptimized: true,
+  //   },
+  //     assetPrefix: './',
+  //     basePath: '.',
+};
 
-module.exports = nextConfig
+module.exports = nextConfig;
