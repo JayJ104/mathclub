@@ -26,7 +26,7 @@ jobs:
       - name: Lint and build
         run: |
             npm run build
-            sed -i 's/href="\//href=".\//g' ./out/*html
+            sed -i 's/\"\//\".\//g' ./out/*.html
 
       - name: Install sshpass
         run: sudo apt-get update && sudo apt-get install -y sshpass
