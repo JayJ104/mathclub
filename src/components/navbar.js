@@ -8,7 +8,6 @@ import styles from "./navbar.module.scss";
 const navlinks = [
   { name: "Home", url: "" },
   { name: "Events", url: "events" },
-  { name: "Mentorship Program", url: "mentorship-program" },
   { name: "Our Team", url: "our-team" },
   { name: "Contact Us", url: "contact-us" },
 ];

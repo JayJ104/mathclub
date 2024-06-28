@@ -33,13 +33,6 @@ export default function Footer() {
         <div className={styles.footer_right}>
           <p className={styles.title}>Quick Links</p>
           <div className={styles.links}>
-            <Link
-              className={styles.a_link}
-              target="_blank"
-              href={links["menteeForm"]}
-            >
-              Mentorship Program
-            </Link>
             <Link className={styles.a_link} href={links["guideDoc"]}>
               Undergraduate Guide
             </Link>
