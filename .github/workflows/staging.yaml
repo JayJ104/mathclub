@@ -32,8 +32,7 @@ jobs:
         run: sudo apt-get update && sudo apt-get install -y sshpass
       
       - name: Publish to server
-        run:
-            sshpass -p "${{ secrets.PASSWORD }}" scp -o StrictHostKeyChecking=no -r ./out/* ${{ secrets.USERNAME }}@${{ secrets.SSH_SERVER }}:public_html/test/
+        run: sshpass -p "${{ secrets.PASSWORD }}" scp -o StrictHostKeyChecking=no -r ./out/* ${{ secrets.USERNAME }}@${{ secrets.SSH_SERVER }}:public_html/test/
 
       - name: Success
         run: echo "Deployed successfully!"

@@ -23,14 +23,15 @@ jobs:
         run: npm install
 
       - name: Lint and build
-        run: npm run build
+        run: |
+            npm run build
+            sed -i 's/\"\//\".\//g' ./out/*.html
 
       - name: Install sshpass
         run: sudo apt-get update && sudo apt-get install -y sshpass
       
       - name: Publish to server
-        run:
-            sshpass -p "${{ secrets.PASSWORD }}" scp -o StrictHostKeyChecking=no -r ./out/* ${{ secrets.USERNAME }}@${{ secrets.SSH_SERVER }}:public_html/site
+        run: sshpass -p "${{ secrets.PASSWORD }}" scp -o StrictHostKeyChecking=no -r ./out/* ${{ secrets.USERNAME }}@${{ secrets.SSH_SERVER }}:public_html/site/
 
       - name: Success
         run: echo "Deployed successfully!"
