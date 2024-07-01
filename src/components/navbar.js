@@ -8,13 +8,12 @@ const navlinks = [
   { name: "Home", url: "" },
   { name: "Events", url: "events" },
   { name: "Our Team", url: "our-team" },
-  { name: "Contact Us", url: "contact-us" },
 ];
 
 export default function Navbar() {
   return (
     <div className={styles.navbar_container}>
-      <Link href="/" className={styles.navbar_left}>
+      <Link href="" className={styles.navbar_left}>
         <div className={styles.logo}>
           <Image src="/images/logo.png" alt="logo" fill={true}></Image>
         </div>
