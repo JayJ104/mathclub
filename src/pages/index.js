@@ -56,7 +56,7 @@ export default function Home() {
   return (
     <div className={styles.page}>
       <div className={styles.welcome_img}>
-        <Image src="/images/community.jpeg" alt="members" fill={true}></Image>
+        <Image src="/images/image.png" alt="members" fill={true}></Image>
         <p>a space for all things mathematics🤍</p>
       </div>
       {data.map((card, index) => (

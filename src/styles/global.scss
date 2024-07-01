@@ -3,8 +3,8 @@
 :root {
   /* Variables */
   // --primary: #fce59d;
-  --secondary: #f7d15c;
-  --primary: #fffff0;
+  --primary: #f7d15c;
+  --secondary: #fce59d;
   // --primary-dark: #f2f1d8;
   // --primary-darker: #fce59d;
   // --secondary: #f9cc3f;
@@ -28,10 +28,7 @@
   font-family: 'Tahoma';
   padding: 0;
   margin: 0;
-}
-
-body {
-  padding-top: var(--navbar);
+  color: var(--text-dark);
 }
 
 button {

@@ -7,7 +7,7 @@
 .welcome_img {
     position: relative;
     width: 100%;
-    height: calc(100vh - var(--navbar));
+    height: 100vh;
 
     p {
         padding: calc(0.5 * (100vh - var(--navbar))) 0px;
