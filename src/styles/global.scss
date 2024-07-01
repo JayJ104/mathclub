@@ -2,19 +2,25 @@
 
 :root {
   /* Variables */
+  // --primary: #fce59d;
+  --secondary: #f7d15c;
   --primary: #fffff0;
-  --primary-dark: #f2f1d8;
-  --primary-darker: #fce59d;
-  --secondary: #f9cc3f;
-  --secondary-dark: #f0b702;
-  --secondary-light: #f7d15c;
-  --highlighter:#2f49aa ;
-  --highlighter-light: #4265eb;
-  --text-light: #f0f6ff ;
-  --text-dark: #202429;
+  // --primary-dark: #f2f1d8;
+  // --primary-darker: #fce59d;
+  // --secondary: #f9cc3f;
+  // --secondary-dark: #f0b702;
+  // --secondary-light: #f7d15c;
+  --highlighter:#141a2b ;
+  --text-light: #fffff0 ;
+  --text-dark: #141a2b;
 
-  --navbar-height: 10vh;
-  --navbar-height-mw: 12vh;
+  --navbar: 10vh;
+
+  @include mixins.tablet{
+    --navbar: 12vh;
+  }
+
+  --edge: 64px;
 }
 
 * {
@@ -25,9 +31,28 @@
 }
 
 body {
-  padding-top: var(--navbar-height);
+  padding-top: var(--navbar);
+}
 
-  @include mixins.mw {
-    padding-top: var(--navbar-height-mw);
+button {
+  padding: 8px 16px;
+  font-size: 1rem;
+  
+  border-radius: 4vw;
+  border: none;  
+
+  background-color: var(--highlighter);
+  color: var(--text-light);
+
+  @include mixins.mobile{
+    font-size: 0.8rem;
   }
+}
+
+button:hover {
+  transform: scale(1.05);
+}
+
+a {
+  text-decoration: none;
 }
