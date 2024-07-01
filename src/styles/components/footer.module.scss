@@ -2,16 +2,13 @@
 
 .footer_container{
     width: 100%;
-    padding: 16px;
+    padding: 0px 128px 16px 128px;
 
     display: flex;
-    flex-direction: column;
+    justify-content: space-between;
     align-items: center;
-    gap: 16px;
     
     background: var(--primary);
-    border-top: 1px solid var(--secondary);
-    box-shadow: 0 0 8px var(--secondary);
 
     p {
         font-size: 1rem;
