@@ -1,171 +1,74 @@
 {
-    "Fall22": [
-                {
-                    "week": 0,
-                    "title": "Pizza Social"
-                },
-                {
-                    "week": 1,
-                    "title": "Getting Into Research"
-                },
-                {
-                    "week": 2,
-                    "title": "Mental Health and Math Misconceptions"
-                },
-                {
-                    "week": 3,
-                    "title": "Movie Morning"
-                },
-                {
-                    "week": 4,
-                    "title": "Technical Workshop"
-                },
-                {
-                    "week": 5,
-                    "title": "Class Preview"
-                },
-                {
-                    "week": 6,
-                    "title": "Grad School 101"
-                },
-                {
-                    "week": 7,
-                    "title": "Sandia TED Talk"
-                },
-                {
-                    "week": 8,
-                    "title": "Relax Social"
-                }
-    ]
-         ,
-    "Winter23": [
-                {
-                    "week": 1,
-                    "title": "Pizza Social"
-                },
-                {
-                    "week": 2,
-                    "title": "Math Modeling and COMAP Exam Info"
-                },
-                {
-                    "week": 3,
-                    "title": "Networking Social"
-                },
-                {
-                    "week": 4,
-                    "title": "Class Preview"
-                },
-                {
-                    "week": 5,
-                    "title": "Math Club x WiCS Cryptography Collab"
-                },
-                {
-                    "week": 6,
-                    "title": "Professor Lecture Series"
-                },
-                {
-                    "week": 7,
-                    "title": "Chem x Math Valentine's Collab"
-                },
-                {
-                    "week": 8,
-                    "title": "Integration Bee"
-                },
-                {
-                    "week": 9,
-                    "title": "Finals Stress Competition"
-                }
-    ]
-    ,
-        
-    "Spring23": [
-                {
-                    "week": 1,
-                    "title": "Pizza & Movie Social"
-                },
-                {
-                    "week": 2,
-                    "title": "LaTeX Workshop"
-                },
-                {
-                    "week": 3,
-                    "title": "Professor Lecture Series"
-                },
-                {
-                    "week": 4,
-                    "title": "Game Night"
-                },
-                {
-                    "week": 5,
-                    "title": "Quantum Topology Talk"
-                },
-                {
-                    "week": 6,
-                    "title": "Class Preview"
-                },
-                {
-                    "week": 7,
-                    "title": "Mental Health Discussion"
-                },
-                {
-                    "week": 8,
-                    "title": "Mathletes Symposium"
-                },
-                {
-                    "week": 9,
-                    "title": "Math Banquet"
-                }
-    ]
-    ,
-  
-        
-    "Fall23": [
-            {
-                "week": 0,
-                "title": "Pizza Social"
-            },
-            {
-                "week": 1,
-                "title": "What Can You Do With A Math Degree?"
-            },
-            {
-                "week": 2,
-                "title": "Grad School 101"
-            },
-            {
-                "week": 3,
-                "title": "Professor Lecture Series"
-            },
-            {
-                "week": 4,
-                "title": "Wellness & Mental Health Meeting"
-            },
-            {
-                "week": 5,
-                "title": "Class Preview"
-            },
-            {
-                "week": 6,
-                "title": "Math Social"
-            },
-            {
-                "week": 7,
-                "title": "REU Panel"
-            },
-            {
-                "week": 8,
-                "title": "Thanksgiving Break"
-            },
-            {
-                "week": 9,
-                "title": "Industry Outreach"
-            }
-    ]
-    ,
-        
-    "Winter24": []
-    ,
-        
-    "Spring24": []
-        
+    "CurrentYear": "2024-25",
+    "2024-25": {
+        "Fall": [],
+        "Winter": [],
+        "Spring": []
+    },
+    "2023-24": {
+        "Fall": [
+            "Math Social",
+            "What Can You Do With A Math Degree?",
+            "Grad School 101",
+            "Lecture Series: Algebraic Knot theory with Prof. Weng",
+            "Wellness & Mental Health Discussion",
+            "Class Preview",
+            "Pizza Social",
+            "REU Panel",
+            "Guest Speaker: John Long"
+        ],
+        "Winter": [
+            "Welcome Social",
+            "Bezier Curves, Vector Graphics and Animation Workshop",
+            "Class Preview",
+            "Mid Quarter Social",
+            "Differential Geometry with Prof. Waldron",
+            "Absurd Problem Solving with the Physics Club",
+            "Lecture Series: Analytical Number Theory with Prof. Li",
+            "Lecture Series: 3D Reconstruction with Prof. Shi"
+        ],
+        "Spring": [
+            "LaTeX Workshop",
+            "Sandia Tech Talk",
+            "Math Kahoot",
+            "Lecture Series: Applications of Symmetry with Prof. Vazirani",
+            "Class Preview",
+            "Trivia Night"
+        ]
+    },
+    "2022-23": {
+        "Fall": [
+            "Pizza Social",
+            "Getting Into Research",
+            "Mental Health and Math Misconceptions",
+            "Movie Morning",
+            "Technical Workshop",
+            "Class Preview",
+            "Grad School 101",
+            "Sandia TED Talk",
+            "Relax Social"
+        ],
+        "Winter":[
+            "Pizza Social", 
+            "Math Modeling and COMAP Exam Info",
+            "Networking Social",
+            "Class Preview",
+            "Math Club x WiCS Cryptography Collab",
+            "Lecture Series: 4-Dimensional Spaces with Prof. Starkston",
+            "Chem x Math Valentine's Collab",
+            "Integration Bee",
+            "Finals Stress Competition"
+        ],
+        "Spring": [
+            "Pizza & Movie Social",
+            "LaTeX Workshop",
+            "Lecture Series with Prof. Melissa Zhang",
+            "Game Night",
+            "Quantum Topology Talk",
+            "Class Preview",
+            "Mental Health Discussion",
+            "Mathletes Symposium",
+            "Math Banquet"
+        ]
+    }
 }
