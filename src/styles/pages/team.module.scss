@@ -1,0 +1,67 @@
+@use "../mixins.scss";
+
+.page {
+    background-color: var(--primary);
+    padding: calc(var(--navbar) + 2vh) var(--edge);
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+
+    h1 {
+        font-weight: 900;
+        text-align: center;
+    }
+}
+
+.content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    column-gap: 16px;
+    row-gap: 32px;
+}
+
+.card {
+    width: 250px;
+    padding: 16px;
+
+    border-radius: 15px;
+    background-color: var(--secondary);
+
+    // @include mixins.mobile{
+    //     width: 100%;
+    //     aspect-ratio: 1;
+    //     margin: 0;
+    //     gap: 0;
+    // }
+    
+    // @include mixins.mobile {
+    //     .names {
+    //         font-size: 2rem;
+    //     }
+
+    //     .positions {
+    //         font-size: 1.7rem;
+    //         font-style: italic;
+    //     }
+
+    //     .intro{
+    //         font-size: 1.3rem;
+    //         padding-bottom: 5%;
+    //     }
+    // }
+
+    p, h2 {
+        padding-top: 8px;  
+        // @include mixins.mobile{
+        //     padding: 0.5% 5%;
+        // }
+    }
+}
+
+.photo {
+    position: relative;
+    width: 100%;
+    height: 250px;
+    overflow: hidden;
+}

@@ -2,8 +2,7 @@
 
 .page {
     background-color: var(--primary);
-    padding: var(--edge);
-    padding-top: 15vh;
+    padding: calc(var(--navbar) + 2vh) var(--edge);
     text-align: center;
 
     display: flex;

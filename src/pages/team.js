@@ -1,28 +1,26 @@
-import TeamData from "../team.json";
-import styles from "../styles/pages/our-team.module.scss";
 import Image from "next/image";
+import TeamData from "../team.json";
+import styles from "../styles/pages/team.module.scss";
 
 export default function Team() {
-  const officerList = TeamData["2023-24"];
+  const officerList = TeamData["Current_Officers"];
+
   return (
     <div className={styles.page}>
-      <p className={styles.title}>Meet Our Team</p>
-      <div className={styles.officer_cards}>
+      <h1>Meet Our Team</h1>
+      <div className={styles.content}>
         {officerList.map((officer, index) => {
           return (
             <div className={styles.card} key={index}>
-              <div className={styles.photos}>
+              <div className={styles.photo}>
                 <Image
-                  src={officer.photo_src}
+                  src={`/images/officers/${officer.photo_filename}`}
                   alt="officer"
-                  width={100}
-                  height={100}
-                  layout="responsive"
+                  fill={true}
                 />
               </div>
-              <p className={styles.names}>{officer.name}</p>
-              <p className={styles.positions}>{officer.position}</p>
-              <p className={styles.intro}>{officer.intro}</p>
+              <h2>{officer.name}</h2>
+              <p>{officer.position}</p>
             </div>
           );
         })}
