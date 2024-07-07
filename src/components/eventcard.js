@@ -1,7 +1,6 @@
 import styles from "../styles/components/eventcard.module.scss";
 
 export default function EventCard({ yearData }) {
-  console.log(typeof yearData);
   return (
     <div className={styles.card}>
       {Object.keys(yearData).map((qtr, index) => {

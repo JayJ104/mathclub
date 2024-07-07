@@ -1,11 +1,17 @@
-@mixin tablet {
+@mixin sm-laptop {
     @media screen and (max-width: 950px) {
         @content;
       }
 }
 
+@mixin tablet {
+    @media screen and (max-width: 650px) {
+        @content;
+      }
+}
+
 @mixin mobile {
-    @media screen and (max-width: 950px) {
+    @media screen and (max-width: 450px) {
         @content;
       }
 }

@@ -24,6 +24,13 @@
         width: 1px;
         background-color: var(--text-dark);
     }
+
+    > div {
+        width: 45%;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
 }
 
 .divider {
@@ -34,13 +41,9 @@
 }
 
 .detail {
-    width: 48%;
-    padding: 0px 10%;
-
     display: flex;
     align-items: center;
-    justify-content: space-around;
-    gap: 16px;
+    gap: 8px;
 
     font-size: 3rem;
 

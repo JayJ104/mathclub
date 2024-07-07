@@ -19,20 +19,29 @@ export default function Events() {
   return (
     <div className={styles.page}>
       <div className={styles.details_section}>
-        <a className={styles.detail} target="_blank" href={links["instagram"]}>
-          <RiInstagramFill />
-          <p>Follow us to get notified about upcoming events!</p>
-        </a>
+        <div>
+          <a
+            className={styles.detail}
+            target="_blank"
+            href={links["instagram"]}
+          >
+            <RiInstagramFill />
+            <p>Follow us to hear about upcoming events!</p>
+          </a>
+        </div>
 
         <div className={styles.divider} />
-        <a
-          className={styles.detail}
-          target="_blank"
-          href="https://goo.gl/maps/y5TVTLNSFkETC6GP6"
-        >
-          <TiLocation />
-          <p>Meetings @ Mathematical Sciences Building 1147 </p>
-        </a>
+
+        <div>
+          <a
+            className={styles.detail}
+            target="_blank"
+            href="https://goo.gl/maps/y5TVTLNSFkETC6GP6"
+          >
+            <TiLocation />
+            <p>Mathematical Sciences Building 1147 </p>
+          </a>
+        </div>
       </div>
 
       <div className={styles.year}>
