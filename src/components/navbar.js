@@ -7,7 +7,7 @@ import styles from "../styles/components/navbar.module.scss";
 const navlinks = [
   { name: "Home", url: "" },
   { name: "Events", url: "events" },
-  { name: "Our Team", url: "team" },
+  { name: "About", url: "team" },
 ];
 
 export default function Navbar() {

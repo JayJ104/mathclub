@@ -15,7 +15,7 @@ export default function Team() {
               <div className={styles.photo}>
                 <Image
                   src={`/images/officers/${officer.photo_filename}`}
-                  alt="officer"
+                  alt="picture of an officer"
                   fill={true}
                 />
               </div>
