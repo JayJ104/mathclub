@@ -42,7 +42,7 @@
 
     p {
         position: absolute;
-        left: calc(2.5vw + 24px);
+        left: calc(2.5vw + 32px);
         bottom: 0;
 
         width: fit-content;
@@ -126,22 +126,11 @@
     }
 
     .navbar_left {
-        gap: 16px;
         p {
             font-size: 1.5rem;
             >span {
                 font-size: 0.8rem;
             }
-        }
-    }
-    
-    .navbar_right {
-        margin-right: calc(80px + 8px);
-        .links {
-            gap: 8px;
-        }
-        .join_button {
-            left: calc(100% + 8px);
         }
     }
 }

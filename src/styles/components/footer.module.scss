@@ -2,7 +2,7 @@
 
 .footer_container{
     width: 100%;
-    padding: 0px 128px 16px 128px;
+    padding: 0px var(--edge) 16px var(--edge);
 
     display: flex;
     justify-content: space-between;

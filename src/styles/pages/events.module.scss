@@ -65,46 +65,8 @@
     }
 }
 
-
-
-.event_year{
-    display: flex;
-    flex-direction: column;
-
-    .year{
-        color: var(--text-dark);
-        font-size: 3.5rem;
-        font-weight: bold;
-
-        text-align: center;
-        margin-top: 2%;
-    }
-
-    .quarter_time{
-        font-size: 1.5rem;
-        font-weight: 400;
-        color: var(--text-dark);
-        text-align: center;
-    }
-
-    .quarters {
-        display: flex;
-        flex-direction: column;
-        gap: 5%;
-        margin: 5%;
-
-        .qtr_titles, .qtr {                
-            display: grid;
-            grid-template-columns: repeat(3,minmax(0,1fr));
-            gap: 2%;
-
-            .quarter_title {
-                font-size: 1.5rem;
-                font-weight: bold;
-                color: var(--text-dark);
-                background-image: linear-gradient(var(--secondary), var(--secondary-dark));
-                text-align: center;
-            }
-        }
+@include mixins.sm-laptop {
+    .detail > p {
+        font-size: 0.9rem;
     }
 }

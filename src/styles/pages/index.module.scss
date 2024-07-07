@@ -75,6 +75,50 @@
     display: none;
 }
 
+.image_container {
+    aspect-ratio: 1.5;
+    position: relative;
+    margin: 16px 0px;
+    
+    > * {
+        border-radius: 32px;
+        box-shadow: 0px 0px 15px var(--secondary);
+    }
+    
+    > *:hover{
+        transform: scale(1.05);
+    }
+}
+
+@include mixins.sm-laptop {
+    .page{
+        overflow: hidden;
+    }
+
+    .welcome_img {
+        height: auto;
+        max-height: 100vh;
+        aspect-ratio: 1.5;    
+    }
+    
+    .math_box, .math_box_mobile {
+    
+        > * {
+            .title {
+                font-size: 3rem;
+            }
+            
+            .desc {
+                font-size: 1rem;
+            }
+        }
+        
+        .third2 {
+            padding-top: 0px;
+        }
+    }
+}
+
 @include mixins.mobile {
     .math_box {
         display: none;
@@ -84,70 +128,3 @@
         display: block;
     }
 }
-
-.image_container {
-    aspect-ratio: 1.5;
-    position: relative;
-    margin: 16px 0px;
-
-    > * {
-        border-radius: 32px;
-        box-shadow: 0px 0px 15px var(--secondary);
-    }
-
-    > *:hover{
-        transform: scale(1.05);
-    }
-}
-
-
-// .white_box {
-//     display: flex;
-//     flex-direction: row;
-//     background-color: var(--primary);
-
-//     @include mixins.mw {
-//         flex-direction: column;
-//         justify-content: center;
-//         align-items: center;
-//     }
-
-//     .textbox {
-//         color: var(--text-dark);
-//         display: flex;
-//         flex-direction: column;
-//         padding: 10vh 0 10vh 10vw;
-//         width: 50vw;
-
-//         @include mixins.mw {
-//             width: 90%;
-//             padding: 5vh 0 0 10%;
-//         }
-//     }
-
-//     .image_box {
-//         display: flex;
-//         flex-direction: column;
-//         justify-content: center;
-//         align-items: center;
-//         width: 100%;
-//         padding: 5vh 0;
-
-//         @include mixins.mw {
-//             flex-direction:  row;
-//             justify-content: space-evenly;
-//         }
-//     }
-
-// .math_box {
-//     display: flex;
-//     flex-direction: column;
-//     background-color: var(--primary);
-
-//     .textbox {
-//         color: var(--text-dark);
-//         display: flex;
-//         flex-direction: column;
-//         padding: 10vh 10vw 0 10vw;
-//     }
-// }
