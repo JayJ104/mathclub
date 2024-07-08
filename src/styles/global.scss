@@ -17,8 +17,12 @@
   --navbar: 10vh;
   --edge: 64px;
 
-  @include mixins.sm-laptop{
+  @include mixins.tablet{
     --edge: 32px;
+  }
+
+  @include mixins.mobile{
+    --edge: 16px;
   }
 }
 

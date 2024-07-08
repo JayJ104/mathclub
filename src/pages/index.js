@@ -60,7 +60,7 @@ export default function Home() {
         <p>a space for all things mathematics🤍</p>
       </div>
       {data.map((card, index) => (
-        <div className={styles.math_box} key={index}>
+        <div className={styles.box} key={index}>
           <div className={styles.image_container}>
             <Image src={card.img1} alt="meeting" fill={true}></Image>
           </div>

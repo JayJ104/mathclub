@@ -2,6 +2,7 @@
 
 .page {
     width: 100%;
+    background-color: var(--primary);
 }
 
 .welcome_img {
@@ -10,7 +11,8 @@
     height: 100vh;
 
     p {
-        padding-top: calc(0.65 * (100vh - var(--navbar)));
+        // padding-top: 45%;
+        padding-top: min(calc(0.65 * (100vh - var(--navbar))), 45%);
         
         text-align: center;
         font-size: 2rem;
@@ -28,14 +30,12 @@
     }    
 }
 
-.math_box, .math_box_mobile {
+.math_box, .box, .math_box_mobile {
     padding: calc(var(--edge) / 2) var(--edge);
 
     display: flex;
     justify-content: space-between;
     text-align: center;
-
-    background-color: var(--primary);
 
     > * {
         height: 256px;
@@ -78,12 +78,12 @@
     aspect-ratio: 1.5;
     position: relative;
     margin: 16px 0px;
-    
+
     > * {
         border-radius: 32px;
         box-shadow: 0px 0px 15px var(--secondary);
     }
-    
+
     > *:hover{
         transform: scale(1.05);
     }
@@ -100,13 +100,11 @@
         aspect-ratio: 1.5;    
     }
     
-    .math_box{
-    
+    .math_box, .box{
         > * {
             .title {
                 font-size: 3rem;
             }
-            
             .desc {
                 font-size: 1rem;
             }
@@ -118,12 +116,11 @@
 @include mixins.tablet {
     .welcome_img {
         p {
-            padding-top: calc(0.5 * (100vh - var(--navbar)));
             font-size: 1.5rem;
         }
     }    
 
-    .math_box {
+    .math_box, .box, .math_box_mobile {
         > * {
             height: 180px;            
             gap: 8px;
@@ -146,11 +143,82 @@
 }
 
 @include mixins.mobile {
+    .welcome_img {
+        margin-bottom: 32px;
+        p {
+            font-size: 1rem;
+        }
+    }
+
     .math_box {
         display: none;
     }
+    
+    .math_box_mobile, .box {
+        display: flex;
+        justify-content: center;
+        gap: 8px;
+        position: relative;
+        padding-bottom: 96px;
+        > * {
+            height: 120px;
+            a, button {
+                font-size: 0.8rem;
+            }
+        }
+        .image_container {
+            margin: 0;
+            > * {
+                border-radius: 16px;
+            }
+        }
+        .third2 {
+            width: 100%;
+            height: fit-content;
+            position: absolute;
+            top: 112px;
+            margin: 0;
+            gap: 0;
+        }
+    }
 
     .math_box_mobile {
-        display: block;
+        height: fit-content;
+        padding-bottom: 128px;
+        .third1, .third3 {
+            height: fit-content;
+            padding: 0;
+        }
+        .third2 {
+            top: 72px;
+        }
     }
+}
+
+@include mixins.sm-mobile {
+    .welcome_img{
+        p {
+            font-size: 0.8rem;
+        }
+    }
+    .box {
+        padding-bottom: 80px;
+        > * {
+            height: 80px;
+        }
+        .third2 {
+            top: 72px;
+        }
+    }
+    .math_box_mobile {
+        > * {
+            a, button {
+                font-size: 0.5rem;
+            }
+        }
+        .third2 {
+            top: 56px;
+        }
+    }
+
 }

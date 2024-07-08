@@ -13,9 +13,16 @@
     p {
         font-size: 1rem;
         color: var(--text-dark);
+        text-wrap: nowrap;
     }
     
     @include mixins.tablet {
         flex-direction: column;
+    }
+
+    @include mixins.sm-mobile {
+        p {
+            font-size: 0.8rem;
+        }
     }
 }

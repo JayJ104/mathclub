@@ -2,7 +2,6 @@
 
 .socials{
     display: flex;
-    flex-direction: row;
     gap: 32px;
 
     a >* {
@@ -14,4 +13,10 @@
         transform: scale(1.05);
     }
     
+}
+
+@include mixins.sm-mobile {
+    .socials {
+        gap: 20px;
+    }
 }

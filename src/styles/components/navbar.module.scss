@@ -105,3 +105,51 @@
         gap: 56px;
     }
 }
+
+@include mixins.mobile {
+    .logo {
+        height: 6vh;
+        margin: calc((var(--navbar) - 6vh)/2)  0px;
+    }
+
+    .content {
+        padding-right: 0px;
+    }
+
+    .clubname {
+        font-size: 1.5rem;
+        padding-top: 1vh;
+        > span {
+            font-size: 1rem;
+        }
+    }
+
+    .join_button {
+        padding: calc((var(--navbar) - 16px - 0.8rem)/2)  0px;
+
+        button {
+            width: fit-content;
+        }
+    }
+
+    .navbar_container {
+        gap: 8px;
+    }
+
+    .links {
+        gap: 24px;
+    }
+}
+
+@include mixins.sm-mobile {
+    .clubname {
+        font-size: 1.25rem;
+        > span {
+            font-size: 0.75rem;
+        }
+    }
+
+    .links {
+        gap: 8px;
+    }
+}
