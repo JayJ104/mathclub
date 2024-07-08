@@ -1,86 +1,72 @@
-{ "2023-24": [
+{ "Current_Officers": [
     {
         "name": "Timothy Blanton",
         "position": "President",
-        "photo_src": "/images/timothy.png",
-        "intro": "Hello, I’m Timothy. I am a fourth year mathematics major interested in Combinatorics and Algebra. I am excited to be Math Club’s President for the 2023-2024 school year. Outside of math, I like playing video games, running, and hiking. Please don’t hesitate to reach out to me at trblanton@ucdavis.edu if you have any questions."
+        "photo_filename": "timothy.png"
     },
     {
         "name": "Harry Yang",
         "position": "Vice President - Internal Affairs",
-        "photo_src": "/images/harry.png",
-        "intro": "Hello! I am Harry, an Applied Mathematics major and I am excited to be the VP of internal affairs for the 2023-24 school year. Outside of school, I like to mess around with synthesizers, read, and juggle balls. I hope to share the beautiful knowledge of mathematics with you all!"
+        "photo_filename": "harry.png"
     },
     {
-        "name": "Mani Ebrahimi Mojaveri",
+        "name": "Mani Mojaveri",
         "position": "Vice President - External Affairs",
-        "photo_src": "/images/mani.png",
-        "intro": "A still pure, somewhat applied, math major with broad interests in mathematical biology and neuroscience, I’m excited to be leading the club into an exciting year. I want to promote student involvement in the department, encourage undergraduate research, and provide a community for math enthusiasts (and those that don’t love our field as much, too!) a space to share their thoughts and learn from each other. Definitely say hi to me after the meeting: I’m always happy to meet new people."
+        "photo_filename": "mani.png"
     },
     {
         "name": "Jinguang Chai",
         "position": "Treasurer",
-        "photo_src": "/images/jinguang.png",
-        "intro": "Hi, I am Jinguang. I am a fifth-year undergraduate student majoring in mathematics and computer science. I am the treasurer of the Math Club for the 2023-2024 school year. I am interested in anything related to mathematics. In my spare time, I usually travel, watch movies, read books, and collect coins."
+        "photo_filename": "jinguang.png"
     },
     {
         "name": "Zachery Whitehead",
         "position": "Secretary",
-        "photo_src": "/images/zachery.png",
-        "intro": "Hi, I’m Zach. I’m a physics and math double major and will be this year’s secretary. In my free time I like to study The Bible, hang out with friends, meet new people, and watch movies. I am very excited to meet everyone and talk with you all about some interesting topics."
+        "photo_filename": "zachery.png"
     },
     {
         "name": "Anjali Jain",
         "position": "Website Director",
-        "photo_src": "/images/anjali.jpg",
-        "intro": "Hi, I'm Jay. I am a Computer Science and Engineering major. In my free time, I like to play guitar, make random lists, watch sitcoms and murder mysteries, and bug my friends."
+        "photo_filename": "anjali.jpg"
     },
     {
         "name": "Jada Yip",
         "position": "Social Media & Graphic Design Chair",
-        "photo_src": "/images/jada.jpeg",
-        "intro": "Hi! I’m Jada, a Mathematics and Scientific Computation Major with a minor in Tech Management. I am the Math Club’s Graphic Design Chair and Marketing Chair for the third year in a row! Outside of math, I enjoy creating art, playing around with spreadsheets, and taking long walks. I am looking forward to another great year!"
+        "photo_filename": "jada.jpeg"
     },
     {
         "name": "Sydney Yoshimura",
         "position": "Photographer & Publicist",
-        "photo_src": "/images/sydney.jpg",
-        "intro": "Hi, my name is Sydney and I’m a double major in Mathematics and Design at UC Davis. I’m Co-Vice President of the math club and I love skiing, puzzles, reading, and fashion!"
+        "photo_filename": "sydney.jpg"
     },
     {
         "name": "Andrew Patton",
         "position": "Product Manager",
-        "photo_src": "/images/andrew.jpg",
-        "intro": "Hey, I’m Andrew a third year applied mathematics student with interests in biophysics and computational neuroscience. I like biking and playing videogames outside of classes. Looking forward to a strong year for Math Club!"
+        "photo_filename": "andrew.jpg"
     },
     {
         "name": "Jeremie Park",
         "position": "Outreach Chair",
-        "photo_src": "/images/jeremie.png",
-        "intro": " Hey, I’m Jeremie, a second year math major and this year’s outreach chair for Math Club! My interests are mostly in algebra, combinatorics and geometry. In my free time, I enjoy reading, yo-yoing, playing video games and hanging out with friends. I hope we can have a great time studying math together this year!"
+        "photo_filename": "jeremie.png"
     },
     {
         "name": "Warren Miller",
         "position": "Event Chair",
-        "photo_src": "/images/warren.png",
-        "intro": "Hi, I’m Warren, currently a Math and Scientific Computation major. I'm interested in non-Euclidean geometry and topology. Outside of math, I enjoy botany, cooking, and messing with various other hobbies."
+        "photo_filename": "warren.png"
     },
     {
         "name": "Vincent Hsu",
         "position": "General Chair",
-        "photo_src": "/images/vincent.png",
-        "intro": "Hello, I’m Vincent, another physics/math double major and the general chair for Math Club this year!. In my free time, I like to watch Netflix, play ultimate with my friends, and read books. I am very excited to meet everyone this year!"
+        "photo_filename": "vincent.png"
     },
     {
         "name": "Elizabeth Angulo",
         "position": "Diversity, Equity & Inclusion Chair",
-        "photo_src": "/images/elizabeth.png",
-        "intro": "Hello! I’m Liz, a fourth year Applied Mathematics major. I am this year's DEI chair. Outside of school I enjoy watching a ton of TV or playing video games on my switch. I look forward to being a part of the club!"
+        "photo_filename": "elizabeth.png"
     },
     {
         "name": "Diego Martinez",
         "position": "Wellness Chair",
-        "photo_src": "/images/diego.jpg",
-        "intro": "Hello! I’m Diego, a third year majoring in Math and Statistics. As our club’s wellness chair and an advocate for mental health awareness, I look forward to engaging our club in different ways of promoting overall well being. Outside of math, I enjoy long distance running and playing guitar!"
+        "photo_filename": "diego.jpg"
     }
 ]}
