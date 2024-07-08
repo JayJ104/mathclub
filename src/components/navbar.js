@@ -13,15 +13,13 @@ const navlinks = [
 export default function Navbar() {
   return (
     <div className={styles.navbar_container}>
-      <Link href="" className={styles.navbar_left}>
-        <div className={styles.logo}>
-          <Image src="/images/logo.png" alt="logo" fill={true}></Image>
-        </div>
-        <p>
-          Math Club <span>@ UC Davis</span>
-        </p>
-      </Link>
-      <div className={styles.navbar_right}>
+      <div className={styles.logo}>
+        <Image src="/images/logo.png" alt="logo" fill={true}></Image>
+      </div>
+      <div className={styles.content}>
+        <Link href="/" className={styles.clubname}>
+          Math Club <span>@UCD</span>
+        </Link>
         <div className={styles.links}>
           {navlinks.map((navlink, index) => {
             return (

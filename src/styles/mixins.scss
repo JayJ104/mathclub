@@ -10,8 +10,14 @@
       }
 }
 
+@mixin l-mobile {
+    @media screen and (max-width: 550px) {
+        @content;
+      }
+}
+
 @mixin mobile {
-    @media screen and (max-width: 450px) {
+    @media screen and (max-width: 550px) {
         @content;
       }
 }

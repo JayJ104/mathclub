@@ -20,10 +20,6 @@
   @include mixins.sm-laptop{
     --edge: 32px;
   }
-
-  @include mixins.tablet{
-    --navbar: 15vh;
-  }
 }
 
 * {

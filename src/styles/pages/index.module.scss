@@ -40,7 +40,7 @@
     > * {
         height: 256px;
         width: calc(0.4 * (100% - 2 * var(--edge)));
-        padding: 16px 16px;
+        padding: 16px;
         border-radius: 32px;
         
         display: flex;
@@ -49,7 +49,6 @@
         gap: 16px;
         
         color: var(--text-dark);
-        // border: 5px solid black;
         
         a, button {
             width: 90%;
@@ -101,7 +100,7 @@
         aspect-ratio: 1.5;    
     }
     
-    .math_box, .math_box_mobile {
+    .math_box{
     
         > * {
             .title {
@@ -112,9 +111,36 @@
                 font-size: 1rem;
             }
         }
-        
+    }
+}
+
+
+@include mixins.tablet {
+    .welcome_img {
+        p {
+            padding-top: calc(0.5 * (100vh - var(--navbar)));
+            font-size: 1.5rem;
+        }
+    }    
+
+    .math_box {
+        > * {
+            height: 180px;            
+            gap: 8px;
+            a, button {
+                width: 100%;
+                font-size: 0.9rem;
+            }
+            .title {
+                font-size: 2.25rem;
+            }
+            .desc {
+                font-size: 0.9rem;
+            }
+        }
         .third2 {
-            padding-top: 0px;
+            padding-top: 16px;
+            margin: 16px 0px;
         }
     }
 }

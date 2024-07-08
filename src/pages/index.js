@@ -45,7 +45,7 @@ export default function Home() {
   const buttons2 = (
     <div className={styles.third3}>
       <a href={links["menteeForm"]} target="_blank">
-        <button>Peer Mentorship Program</button>
+        <button>Peer Mentor Program</button>
       </a>
       <a href={links["merchOrderForm"]} target="_blank">
         <button>Order Merch</button>
