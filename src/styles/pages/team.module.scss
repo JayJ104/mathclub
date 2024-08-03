@@ -27,12 +27,12 @@
     border-radius: 15px;
     background-color: var(--secondary);
 
-    h2,p {
+    h2, p {
         padding-top: 8px;
         text-align: center;
     }
 
-    c {
+    .c {
         font-style: italic; 
         text-align: center;
     }
@@ -64,9 +64,9 @@
         p {
             font-size: 0.8rem;
         }
-        c {
+        .c {
             font-size: 1.25rem; /* Ensure the same size as h2 */
-            font-weight: bold;
+            font-weight: bold; /* Make text bold */
         }
     }
     .photo {
