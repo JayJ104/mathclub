@@ -27,13 +27,17 @@
     border-radius: 15px;
     background-color: var(--secondary);
 
-    p, h2 {
+    h2 {
+        padding-top: 8px;
+        text-align: center;
+    }
+
+    p {
         padding-top: 8px;
     }
 
     c {
-        font-size: inherit; /* Same size as the parent element, which will be h2 */
-        font-style: italic; /* Makes text cursive */
+        font-style: italic; 
     }
 }
 
