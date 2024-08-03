@@ -3,12 +3,7 @@
         "name": "Nathan Singh",
         "position": "President",
         "photo_filename": "nathan.png",
-        "contact": "Contact me on Discord at nes37, or by email at nesing@ucdavis.edu!"
-    },
-    {
-        "name": "Timothy Blanton",
-        "position": "The other guy",
-        "photo_filename": "timothy.png",
-        "contact": "something"
+        "disc": "Discord: nes37",
+        "email": "Email: nesing@ucdavis.edu"
     }
 ]}
