@@ -24,12 +24,16 @@
 .card {
     width: 250px;
     padding: 16px;
-
     border-radius: 15px;
     background-color: var(--secondary);
 
     p, h2 {
         padding-top: 8px;
+    }
+
+    .cursive {
+        font-size: inherit; /* Same size as the parent element, which will be h2 */
+        font-style: italic; /* Makes text cursive */
     }
 }
 
@@ -58,6 +62,9 @@
         }
         p {
             font-size: 0.8rem;
+        }
+        .cursive {
+            font-size: 1.25rem; /* Ensure the same size as h2 */
         }
     }
     .photo {
