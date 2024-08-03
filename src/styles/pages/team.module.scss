@@ -27,17 +27,14 @@
     border-radius: 15px;
     background-color: var(--secondary);
 
-    h2 {
+    h2,p {
         padding-top: 8px;
         text-align: center;
     }
 
-    p {
-        padding-top: 8px;
-    }
-
     c {
         font-style: italic; 
+        text-align: center;
     }
 }
 
@@ -69,6 +66,7 @@
         }
         c {
             font-size: 1.25rem; /* Ensure the same size as h2 */
+            font-weight: bold;
         }
     }
     .photo {
