@@ -31,7 +31,7 @@
         padding-top: 8px;
     }
 
-    .cursive {
+    c {
         font-size: inherit; /* Same size as the parent element, which will be h2 */
         font-style: italic; /* Makes text cursive */
     }
@@ -63,7 +63,7 @@
         p {
             font-size: 0.8rem;
         }
-        .cursive {
+        c {
             font-size: 1.25rem; /* Ensure the same size as h2 */
         }
     }
