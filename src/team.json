@@ -5,5 +5,12 @@
         "photo_filename": "nathan.png",
         "discord": "Discord: nes37",
         "email": "Email: nesing@ucdavis.edu"
+    },
+    {
+        "name": "Ben Daniels",
+        "position": "Vice President",
+        "photo_filename": "timothy.png",
+        "discord": "Discord: elysianfields",
+        "email": "Email: bkdaniels@ucdavis.edu"
     }
 ]}
