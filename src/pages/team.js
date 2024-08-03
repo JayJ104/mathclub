@@ -21,7 +21,9 @@ export default function Team() {
               </div>
               <h2>{officer.name}</h2>
               <p>
-                <b>{officer.position}</b>
+                <b>
+                  <em>{officer.position}</em>
+                </b>
               </p>
               <p>{officer.contact}</p>
             </div>
