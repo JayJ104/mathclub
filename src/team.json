@@ -1,72 +1,12 @@
 { "Current_Officers": [
     {
-        "name": "Timothy Blanton",
+        "name": "Nathan Singh",
         "position": "Supreme Dictator for life",
         "photo_filename": "timothy.png"
     },
     {
-        "name": "Harry Yang",
-        "position": "Vice President - Internal Affairs",
-        "photo_filename": "harry.png"
-    },
-    {
-        "name": "Mani Mojaveri",
-        "position": "Vice President - External Affairs",
-        "photo_filename": "mani.png"
-    },
-    {
-        "name": "Jinguang Chai",
-        "position": "Treasurer",
-        "photo_filename": "jinguang.png"
-    },
-    {
-        "name": "Zachery Whitehead",
-        "position": "Secretary",
-        "photo_filename": "zachery.png"
-    },
-    {
-        "name": "Anjali Jain",
-        "position": "Website Director",
-        "photo_filename": "anjali.jpg"
-    },
-    {
-        "name": "Jada Yip",
-        "position": "Social Media & Graphic Design Chair",
-        "photo_filename": "jada.jpeg"
-    },
-    {
-        "name": "Sydney Yoshimura",
-        "position": "Photographer & Publicist",
-        "photo_filename": "sydney.jpg"
-    },
-    {
-        "name": "Andrew Patton",
-        "position": "Product Manager",
-        "photo_filename": "andrew.jpg"
-    },
-    {
-        "name": "Jeremie Park",
-        "position": "Outreach Chair",
-        "photo_filename": "jeremie.png"
-    },
-    {
-        "name": "Warren Miller",
-        "position": "Event Chair",
-        "photo_filename": "warren.png"
-    },
-    {
-        "name": "Vincent Hsu",
-        "position": "General Chair",
-        "photo_filename": "vincent.png"
-    },
-    {
-        "name": "Elizabeth Angulo",
-        "position": "Diversity, Equity & Inclusion Chair",
-        "photo_filename": "elizabeth.png"
-    },
-    {
-        "name": "Diego Martinez",
-        "position": "Wellness Chair",
-        "photo_filename": "diego.jpg"
-    }
+        "name": "Timothy Blanton",
+        "position": "Supreme Dictator for life",
+        "photo_filename": "timothy.png"
+    },    
 ]}
