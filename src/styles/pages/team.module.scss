@@ -24,28 +24,19 @@
 .card {
     width: 250px;
     padding: 16px;
+
     border-radius: 15px;
     background-color: var(--secondary);
 
-    h2, p { /* Include c here */
+    p, h2 {
         padding-top: 8px;
-        text-align: center;
     }
-
-    h2 {
-        /* Specific styles for h2 if needed */
-    }
-
-    p {
-        /* Specific styles for p if needed */
-    }
-
 }
 
 .photo {
     position: relative;
     width: 100%;
-    height: 250px; /* This can be adjusted as needed */
+    height: 250px; /* This can be adjusted as needed /
     overflow: hidden;
 
     img {
@@ -54,8 +45,8 @@
         left: 0;
         width: 100%;
         height: 100%;
-        object-fit: cover; /* This ensures the image covers the container without stretching */
-        object-position: center; /* Center the image in the container */
+        object-fit: cover; / This ensures the image covers the container without stretching /
+        object-position: center; / Center the image in the container */
     }
 }
 
@@ -67,11 +58,6 @@
         }
         p {
             font-size: 0.8rem;
-        }
-        .c { 
-        font-style: italic; /* Make text cursive */
-        font-size: 1.25rem; /* Set the font size to be the same as h2 */
-        font-weight: bold; /* Default weight for custom-text */
         }
     }
     .photo {
