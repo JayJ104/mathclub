@@ -36,7 +36,7 @@
 .photo {
     position: relative;
     width: 100%;
-    height: 250px; /* This can be adjusted as needed /
+    height: 250px; /* This can be adjusted as needed */
     overflow: hidden;
 
     img {
@@ -45,8 +45,8 @@
         left: 0;
         width: 100%;
         height: 100%;
-        object-fit: cover; / This ensures the image covers the container without stretching /
-        object-position: center; / Center the image in the container */
+        object-fit: cover; /* This ensures the image covers the container without stretching */
+        object-position: center; /* Center the image in the container */
     }
 }
 
