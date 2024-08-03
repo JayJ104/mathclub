@@ -27,7 +27,7 @@
     border-radius: 15px;
     background-color: var(--secondary);
 
-    h2, p, c { /* Include c here */
+    h2, p { /* Include c here */
         padding-top: 8px;
         text-align: center;
     }
@@ -40,11 +40,6 @@
         /* Specific styles for p if needed */
     }
 
-    c {
-        font-style: italic; /* Make text cursive */
-        font-size: 1.25rem; /* Set the font size to be the same as h2 */
-        font-weight: bold; /* Default weight for c, adjust as needed */
-    }
 }
 
 .photo {
@@ -73,9 +68,10 @@
         p {
             font-size: 0.8rem;
         }
-        c {
-            font-size: 1.25rem; /* Ensure the same size as h2 */
-            font-weight: bold; /* Make text bold */
+        .c { 
+        font-style: italic; /* Make text cursive */
+        font-size: 1.25rem; /* Set the font size to be the same as h2 */
+        font-weight: bold; /* Default weight for custom-text */
         }
     }
     .photo {
