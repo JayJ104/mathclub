@@ -20,7 +20,7 @@ export default function Team() {
                 />
               </div>
               <h2>{officer.name}</h2>
-              <p><i><b>{officer.position}</p></i></b>
+              <p><i><b>{officer.position}</b></i></p>
               <p>{officer.contact}</p>
             </div>
           );
