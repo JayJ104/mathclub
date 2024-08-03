@@ -27,14 +27,23 @@
     border-radius: 15px;
     background-color: var(--secondary);
 
-    h2, p {
+    h2, p, c { /* Include c here */
         padding-top: 8px;
         text-align: center;
     }
 
-    .c {
-        font-style: italic; 
-        text-align: center;
+    h2 {
+        /* Specific styles for h2 if needed */
+    }
+
+    p {
+        /* Specific styles for p if needed */
+    }
+
+    c {
+        font-style: italic; /* Make text cursive */
+        font-size: 1.25rem; /* Set the font size to be the same as h2 */
+        font-weight: normal; /* Default weight for c, adjust as needed */
     }
 }
 
@@ -64,7 +73,7 @@
         p {
             font-size: 0.8rem;
         }
-        .c {
+        c {
             font-size: 1.25rem; /* Ensure the same size as h2 */
             font-weight: bold; /* Make text bold */
         }
