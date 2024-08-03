@@ -25,7 +25,8 @@ export default function Team() {
                   <em>{officer.position}</em>
                 </b>
               </p>
-              <p>{officer.contact}</p>
+              <p>{officer.discord}</p>
+              <p>{officer.email}</p>
             </div>
           );
         })}
