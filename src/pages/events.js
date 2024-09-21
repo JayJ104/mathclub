@@ -39,7 +39,7 @@ export default function Events() {
             href="https://goo.gl/maps/y5TVTLNSFkETC6GP6"
           >
             <TiLocation />
-            <p>2-3 PM Thursdays at Mathematical Sciences Building 1147</p>
+            <p>2-3 PM Tuesdays at Mathematical Sciences Building 1147</p>
           </a>
         </div>
       </div>
