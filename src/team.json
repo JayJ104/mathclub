@@ -19,5 +19,12 @@
         "photo_filename": "wren.png",
         "discord": "Discord: wren1729",
         "email": "Email: wmburrill@ucdavis.edu"
+    },
+    {
+        "name": "Sean O",
+        "position": "Secretary",
+        "photo_filename": "sean.jpg",
+        "discord": "Discord: ocean_manatee",
+        "email": "Email: so@ucdavis.edu"
     }
 ]}
