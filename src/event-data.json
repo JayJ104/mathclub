@@ -2,16 +2,21 @@
     "CurrentYear": "2024-25",
     "2024-25": {
         "Fall": [
-            "Pizza Social - October 1st",
-            "All Things Putnam - October 8th",
-            "Fast Enterprises and Math in the Workplace - October 15th",
-            "Integration Bee (and Pizza) - October 24th",
-            "Class Preview - October 29th",
-            "Grad School Panel - November 5th",
-            "Problem Solving Session - November 12th"
+            "Pizza Social - Oct 1st",
+            "All Things Putnam - Oct 8th",
+            "Fast Enterprises and Math in the Workplace - Oct 15th",
+            "Integration Bee (and Pizza) - Oct 24th",
+            "Class Preview - Oct 29th",
+            "Grad School Panel - Nov 5th",
+            "Problem Solving Session - Nov 12th"
         ],
         "Winter": [
-            
+            "Winter Welcome - Jan 14",
+            "Book Review - Jan 21",
+            "Class Preview - Jan 28",
+            "Job Hunting - Feb 3",
+            "Andrew Wiles and FMT - Feb 11",
+            "LaTeX Workshop - Feb 18"
         ],
         "Spring": [
             
